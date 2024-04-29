@@ -1,0 +1,14 @@
+* Emacs configuration
+** Basic Settings
+#+BEGIN_SRC emacs-lisp
+  ;; Disable startup message
+  (setq inhibit-startup-message t)
+
+  (menu-bar-mode -1)   ; Disable menu bar
+  (tool-bar-mode -1)   ; Disable tool bar
+  (scroll-bar-mode -1) ; Disable scroll bar
+  (tooltip-mode -1)    ; Disable tool tip
+  (set-fringe-mode 10) ; Give some breathing room
+
+  ;; (setq visible-bell t); Setup a visible bell
+#+END_SRC
